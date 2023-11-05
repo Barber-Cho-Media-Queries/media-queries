@@ -11,18 +11,19 @@ body {
     margin: 10px 17px;
     justify-content: center;
     align-items: center;
+    background-color: #fdcf58;
 }
 
 .alert-info, li {
-    margin: 7px 0;
+    margin: 25px 0;
     padding: 18px 0;
 }
 
 .alert-info {
     width: 100%;
-    border: lightgrey 2px solid;
+    border: #757676 1px solid;
     text-align: center;
-    background-color: #ccffff;
+    background-color: #F27D0C;
 }
 
 .alert-info a {
@@ -31,9 +32,6 @@ body {
     font-size: 0.9em;
 }
 
-h1 {
-    margin: 15px 0;
-}
 
 nav {
     width: 100%;
@@ -86,6 +84,29 @@ span > img{
     width: 25px;
     height: 25px;
 }
+/* mouse over link */
+.nav-links a:hover{
+    color: black;
+}
+
+/* selected link */
+.nav-links a:active{
+    color: #800909;
+}
+
+/* visited link */
+a:visited {
+    color: #800909;
+}
+
+/*media querie at 576px*/
+@media screen and (max-width: 767px) {
+    /* Styles for screens 576px and above go here */
+    body {
+        background-color: whitesmoke;
+    }
+
+}
 
 
 @media screen and (min-width: 768px) {
@@ -94,6 +115,7 @@ span > img{
         flex-flow: row wrap;
         justify-content: space-between;
         margin: 10px 25px;
+        background-color: #fdcf58;
     }
 
 
@@ -126,4 +148,17 @@ span > img{
     .sub-section {
         flex-basis: 35%;
     }
+/*    changing image over*/
+    .small-image{
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+    /* Styles for screens 576px and above go here */
+    body {
+        background-color: #757676;
+    }
+
 }
