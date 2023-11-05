@@ -1,0 +1,39 @@
+@media screen and (min-width: 768px) {
+
+    body {
+        flex-flow: row wrap;
+        justify-content: space-between;
+        margin: 10px 25px;
+    }
+
+
+    .hidden-on-desktop {
+        display: none;
+    }
+
+    nav {
+        width: unset;
+        margin: unset;
+    }
+
+    ul {
+        flex-direction: row;
+        gap: 25px;
+    }
+
+    li {
+        background-color: transparent;
+    }
+
+    .header-img {
+        width: 100%;
+    }
+
+    .main {
+        flex-basis: 60%;
+    }
+
+    .sub-section {
+        flex-basis: 35%;
+    }
+}
