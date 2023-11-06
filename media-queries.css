@@ -11,7 +11,7 @@ body {
     margin: 10px 17px;
     justify-content: center;
     align-items: center;
-    background-color: #fdcf58;
+    /*background-color: #fdcf58;*/
 }
 
 .alert-info, li {
@@ -103,9 +103,9 @@ a:visited {
     color: #800909;
 }
 
-/*media querie at 576px*/
+
 @media screen and (max-width: 767px) {
-    /* Styles for screens 576px and above go here */
+
     body {
         background-color: whitesmoke;
     }
@@ -136,7 +136,7 @@ a:visited {
 
     ul {
         flex-direction: row;
-        gap: 25px;
+        gap: 15px;
     }
 
     li {
