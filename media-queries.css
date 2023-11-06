@@ -105,7 +105,9 @@ a:visited {
     body {
         background-color: whitesmoke;
     }
-
+    .large-image{
+        display: none;
+    }
 }
 
 
