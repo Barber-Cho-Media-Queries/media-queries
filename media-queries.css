@@ -52,7 +52,7 @@ ul {
 li {
     background-color: lightgrey;
     text-align: center;
-    cursor: pointer;
+    /*cursor: pointer;*/
 }
 
 img {
@@ -77,10 +77,14 @@ footer {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
-    margin: 25px 0 15px 0;
+    margin: 20px 0 20px 0;
 }
 
-span > img{
+span > a{
+    width: 25px;
+    height: 25px;
+}
+.social-image{
     width: 25px;
     height: 25px;
 }
